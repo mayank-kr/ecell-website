@@ -1,0 +1,78 @@
+
+#footer {
+  padding-bottom: 40px;
+  margin-top: 40px;;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 300;
+  color: #5068af;
+  /* background-color: #0a2164; */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+#footer .container {
+  padding-top: 80px;
+  border-top: 1px solid #f4f4f9;
+}
+.footer-widget {
+  margin-bottom: 40px;
+}
+.footer-widget .footer-title {
+  margin-bottom: 40px;
+  /* text-transform: capitalize; */
+  font-size: 18px;
+  /* text-align: center; */
+}
+.footer-widget a {
+  color: #b1c9ce;
+  -webkit-transition: 0.2s color;
+  transition: 0.2s color;
+}
+.footer-widget a:hover,
+.footer-widget a:focus {
+  text-decoration: none;
+  color: #fdfdfd;
+  font-weight: 600;
+}
+.footer-ecell-logo {
+  margin-bottom: 40px;
+  height: 50px;
+  width: 100px;
+}
+.footer-nav li {
+  display: inline-block;
+  /* margin-right: 15px; */
+}
+.footer-links li + li {
+  margin-top: 5px;
+  list-style: none;
+}
+
+.footer-social {
+  margin-top: 20px;
+}
+.footer-social li {
+  display: inline-block;
+  margin-right: 5px;
+  text-align: center;
+}
+.footer-social li > a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  text-align: center;
+  background-color: #031b1f;
+  color: #fff;
+  border-radius: 2px;
+  -webkit-transition: 0.2s opacity;
+  transition: 0.2s opacity;
+}
+.footer-social li > a:hover,
+.footer-social li > a:focus {
+  color: #072f3f;
+  opacity: 1;
+  background-color: #d6d8da;
+ 
+}
