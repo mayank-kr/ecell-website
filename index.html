@@ -45,6 +45,12 @@
             color: #ffffff;
         }
 
+        .icons-bsdk{
+            height: 33px;
+            width: auto;
+            margin-top: -13px;
+        }
+
         @media only screen and (max-width: 768px) {
             .quote {
                 font-family: 'Shift', sans-serif;
@@ -109,8 +115,8 @@
 
     <!-- favicons
     ================================================== -->
-    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
-    <link rel="icon" href="icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images\icon.png" type="image/x-icon">
+    <link rel="icon" href="images\icon.png" type="image/x-icon">
 
 </head>
 
@@ -124,7 +130,7 @@
 
         <div class="header-logo">
             <a class="site-logo" href="index.html" >
-                <img src="ecell-logo.png" alt="Homepage" style="max-width: 100px;">
+                <img src="images\ecell-logo.png" alt="Homepage" style="max-width: 100px;">
             </a>
         </div>
 
@@ -218,21 +224,31 @@
 
         <ul class="home-social" style="color:black">
             <li>
-                <a href="https://www.linkedin.com/company/e-cell-iiit-guwahati/" target="_blank"><i class="fab fa-linkedin"
-                        aria-hidden="true"></i><span>LinkedIn</span></a>
+                <a href="https://www.linkedin.com/company/e-cell-iiit-guwahati/" target="_blank">
+                    <!-- <i class="fab fa-linkedin" aria-hidden="true"></i> -->
+                    <img src="images\linkedin-logo.png" alt="" class="icons-bsdk"><span>LinkedIn</span>
+                </a>
+
             </li>
             <li>
-                <a href="https://www.instagram.com/ecell.iiitguwahati/" target="_blank"><i class="fab fa-instagram"
-                        aria-hidden="true"></i><span>Instagram</span></a>
+                <a href="https://www.instagram.com/ecell.iiitguwahati/" target="_blank">
+                    <!-- <i class="fab fa-instagram" aria-hidden="true"></i> -->
+                    <img src="images\instagram-logo.png" alt="" class="icons-bsdk"><span>Instagram</span></a>
             </li>
             <li>
-                <a href="https://www.youtube.com/channel/UCtlc6qgsXzRAxWQ5UD45f2w" target="_blank"><i class="fab fa-youtube"
-                        aria-hidden="true"></i><span>YouTube</span></a>
+                <a href="https://www.youtube.com/channel/UCtlc6qgsXzRAxWQ5UD45f2w" target="_blank">
+                    <!-- <i class="fab fa-youtube" aria-hidden="true"></i> -->
+                    <img src="images\youtube-logo.png" alt="" class="icons-bsdk"><span>YouTube</span></a></a>
+
+                    
             </li>
             <li>
-                <a href="https://www.facebook.com/ecell.iiitguwahati/" target="_blank"><i class="fab fa-facebook-f"
-                        aria-hidden="true"></i><span>Facebook</span></a>
+                <a href="https://www.facebook.com/ecell.iiitguwahati/" target="_blank">
+                    <img src="images\facebook-logo.png" alt="" class="icons-bsdk"><span>Facebook</span></a>
             </li>
+
+            
+            
             
             
         </ul>
@@ -296,29 +312,29 @@
         <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-right">
 
             <div class="col-block stats__col ">
-                <div class="stats__count" style="color: lightblue">16</div>
+                <div class="stats__count" style="color: lightblue">24</div>
                 <h5 style="color: grey;">Events</h5>
             </div>
             <div class="col-block stats__col">
-                <div class="stats__count" style="color: lightblue">2000</div>
+                <div class="stats__count" style="color: lightblue">5000</div>
                 <h5 style="color: grey;">Participants</h5>
             </div>
             <div class="col-block stats__col">
-                <div class="stats__count" style="color: lightblue">900</div>
+                <div class="stats__count" style="color: lightblue">2000</div>
                 <h5 style="color: grey;">Lecture Minutes</h5>
             </div>
             <div class="col-block stats__col">
-                <div class="stats__count" style="color: lightblue">20</div>
+                <div class="stats__count" style="color: lightblue">39</div>
                 <h5 style="color: grey;">Speakers</h5>
             </div>
         </div> <!-- end about-stats -->
 
-    </section> <!-- end s-about -->
+    </section> <!-- end s-about -->`
 
     <!-- news 
     =========================================== -->
 
-    <div class="section" id="news" style="padding-bottom: 120px;">
+    <!-- <div class="section" id="news" style="padding-bottom: 120px;">
         <div class="news-header">
             <h1>Latest News</h1>
         </div>
@@ -357,7 +373,7 @@
                     </div>
                 </div>
 
-            </div>
+            </div> -->
 
 
             <!-- <div class="row" id="other-news">
@@ -960,8 +976,10 @@
                         <img src="images/logo-footer.png" style="width:50px;height:50px;">
                         <div class="footer-logo"></div>
                         <div class="copyright">
-                            <span style="color: #181e1f;background-color: #ffffff0a;padding: 2px;margin: 2px;margin-top: 5px;">© Copyright IIITG 2019 | Designed by <a href="#team" style="color: #e9e1e1;  ">E-Cell
-                                    Technical Team</a></span>
+                            <span style="color: #181e1f;background-color: #ffffff0a;padding: 2px;margin: 2px;margin-top: 5px;">
+                                © Copyright IIITG 2022 | Designed by 
+                                <a href="team.html#Technical" style="color: #e9e1e1;">E-Cell Technical Team </a>
+                            </span>
                         </div>
                         <!--popup-->
 
@@ -1138,7 +1156,7 @@
     <!-- wow js -->
     <script src="js/wow.min.js"></script>
     <!-- font-awesome -->
-    <script src="https://kit.fontawesome.com/4e9d558cf5.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4e9d558cf5.js" crossorigin="anonymous" defer ></script>
     <!-- Custom JS -->
     <script type="text/javascript">
         var item = jQuery('.extended-parallax')

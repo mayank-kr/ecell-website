@@ -1,7 +1,6 @@
-
 #footer {
   padding-bottom: 40px;
-  margin-top: 40px;;
+  margin-top: 40px;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 300;
@@ -57,7 +56,7 @@
   margin-right: 5px;
   text-align: center;
 }
-.footer-social li > a {
+/* .footer-social li > a {
   display: block;
   width: 40px;
   height: 40px;
@@ -74,5 +73,4 @@
   color: #072f3f;
   opacity: 1;
   background-color: #d6d8da;
- 
-}
+  */
